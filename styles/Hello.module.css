@@ -1,0 +1,63 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+. {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.:hover {
+  background-color: #0050c8;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .container {
+    max-width: none; /* Remove the max-width for full width */
+    width: 100%; /* Make the container full width */
+    margin: 0; /* Remove margin */
+    padding: 1rem; /* Reduce padding for smaller size */
+    text-align: left; /* Align text to the left */
+  }
+
+  .description {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+
+  . {
+    margin-top: 0.5rem; /* Reduce top margin */
+  }
+
+  /* Style for the third container */
+  .container.third {
+    background-color: #f0f0f0; /* Apply background color */
+    padding: 1rem; /* Adjust padding for smaller size */
+    border-radius: 8px; /* Keep the border radius */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Keep the box shadow */
+  }
+}
